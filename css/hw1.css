@@ -39,6 +39,7 @@ nav a{
 
 a:hover{
     opacity:100%;
+    transition: .5s;
 
 }
 
@@ -53,7 +54,7 @@ a:hover{
     float:left;
     background-color: #666600;
     width:30%;
-    height:auto;
+    height:100vh;
 
 }
 img{
@@ -65,6 +66,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height:200px;
    }
 
    h2{
@@ -79,3 +81,54 @@ img{
     width:45%;
     height: auto;
    }
+   table{
+    padding-left: 10%;
+   }
+
+   th{
+    color:#e6e600;
+    background-color:#202020;
+    border-radius: 7px 7px 0 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: seagreen;
+    font-size: 150%;
+    text-shadow:1px 1px seagreen;
+    opacity:100%;
+      
+   }
+   
+   td:first-child{
+    text-align: left;
+    padding-right: 50px;
+   }
+   th:first-child{
+    text-align: left;
+    padding-right: 50px;
+
+   }
+   td{
+    color:#07c6ff;
+    background-color:#383838;
+    margin:auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: seagreen;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: sans-serif;
+    font-size: 95%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+   }
+   tr{
+    opacity: 75%;
+   }
+   tr:hover{
+    opacity: 100%;
+   }
+   tr:first-child{
+    opacity: 100%;
+   }
+
